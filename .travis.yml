@@ -2,7 +2,7 @@ language: java
 dist: xenial
 jdk:
 - openjdk10
-- oraclejdk11
+- openjdk11
 sudo: true
 script: mvn verify failsafe:integration-test failsafe:verify
 branches:
